@@ -117,6 +117,72 @@
     margin-top: 20px;
     line-height: 157.4%;
   }
+  .blogss-button button{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 48px;
+    border: none;
+    border-radius: 39px;
+    font-family: "Nunito", sans-serif;
+  
+  }
+  .blogss-button-1 button{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 48px;
+    border: none;
+    border-radius: 39px;
+    font-family: "Nunito", sans-serif;
+  
+  }
+  .blogss-button-2 button{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 48px;
+    border: none;
+    border-radius: 39px;
+    font-family: "Nunito", sans-serif;
+  
+  }
+  .blogss-button-3 button{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 48px;
+    border: none;
+    border-radius: 39px;
+    font-family: "Nunito", sans-serif;
+  
+  }
+  .blogss-button-4 button{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 48px;
+    border: none;
+    border-radius: 39px;
+    font-family: "Nunito", sans-serif;
+  
+  }
+  .blogss-button-5 button{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 48px;
+    border: none;
+    border-radius: 39px;
+    font-family: "Nunito", sans-serif;
+  
+  }
   .read {
     font-size: 18px;
     font-weight: bold;
@@ -382,7 +448,6 @@
     gap: 25px;
 }
 
-
   @media (min-width:320px){
     .container{
      max-width: 320px;
@@ -424,99 +489,26 @@
   }
 
   
+
   @media (min-width: 320px){
-    .footer-container {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 100px;
-    }
-    .last-button{
-      display: block;
-    }
-    .vector{
-      margin-top: 10px;
-    }
-    .coulmn-2{
-      gap: 10px;
-    }
-    .copyright-container{
-      display: block;
-    }
-    .copyright-text h2{
-      margin-bottom: 50px;
-    }
-    
-  }
-  @media (min-width: 576px){
-    .footer-container {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 100px;
-    }
-    .last-button{
-      display: block;
-    }
-    .vector{
-      margin-top: 10px;
-    }
-    .coulmn-2{
-      gap: 10px;
-    }
-    .copyright-container{
-      display: block;
-    }
-    .copyright-text h2{
-      margin-bottom: 50px;
-    }
-    
-  }
-  @media (min-width: 768px){
-    .footer-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin-top: 100px;
-    }
-    .coulmn-4{
+    .blogss-button{
       display: none;
     }
-  }
-  @media (min-width: 992px){
-    .footer-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin-top: 100px;
+    .blogss-button-1{
+      display: none;
     }
-    .coulmn-4{
-      display: grid;
+    .blogss-button-2{
+      display: none;
     }
-    .last-button{
-      display: block;
+    .blogss-button-3{
+      display: none;
     }
-    .vector{
-      margin-top: 10px;
+    .blogss-button-4{
+      display: none;
     }
-    .copyright-container{
-      display: flex;
+    .blogss-button-5{
+      display: none;
     }
-  }
-  @media (min-width: 1200px){
-    .footer-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto;
-      gap: 10px;
-    }
-   .last-button{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-   }
-  .vector{
-    margin-top: 0px;
-   }
-  
-  }
-  @media (min-width: 320px){
     .news-container{
       margin-top: 71px;
       display: flex;
@@ -569,6 +561,24 @@
   
   }
   @media (min-width: 576px){
+    .blogss-button{
+      display: flex;
+    }
+    .blogss-button-1{
+      display: flex;
+    }
+    .blogss-button-2{
+      display: flex;
+    }
+    .blogss-button-3{
+      display: flex;
+    }
+    .blogss-button-4{
+      display: flex;
+    }
+    .blogss-button-5{
+      display: flex;
+    }
     .news-text h1{
       display: flex;
       justify-content: center;
@@ -607,6 +617,69 @@
       flex-wrap: wrap;
       margin-top: 30px;
     }
+    .articles-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button{
+      position: absolute;
+      left: 4rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
+    
+    .blogss-button-1{
+      position: absolute;
+      left: 4rem;
+      top: 64rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-2{
+      position: absolute;
+      left: 4rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-3{
+      position: absolute;
+      left: 4rem;
+      top: 65rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-1-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-4{
+      position: absolute;
+      left: 4rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-5{
+      position: absolute;
+      left: 4rem;
+      top: 63rem;
+      display: flex;
+      place-items: center;
+    }
+    
+    
   
   }
   @media (min-width: 768px){
@@ -634,23 +707,86 @@
     }
     .articles-post {
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       gap: 10px;
       margin-top: 30px;
     }
     .articles-no-post {
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       gap: 10px;
       margin-top: 30px;
     }
    
     .articles-no-1-post {
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       gap: 10px;
       margin-top: 30px;
     }
+    .articles-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button{
+      position: absolute;
+      left: 4rem;
+      top: 19rem;
+      display: flex;
+      place-items: center;
+    }
+    
+    .blogss-button-1{
+      position: absolute;
+      left: 4rem;
+      top: 67rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-2{
+      position: absolute;
+      left: 4rem;
+      top: 19rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-3{
+      position: absolute;
+      left: 4rem;
+      top: 66rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-1-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-4{
+      position: absolute;
+      left: 4rem;
+      top: 19rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-5{
+      position: absolute;
+      left: 4rem;
+      top: 66rem;
+      display: flex;
+      place-items: center;
+    }
+    
+    
   
   }
   @media (min-width: 992px){
@@ -694,6 +830,67 @@
       flex-wrap: nowrap;
       gap: 10px;
       margin-top: 30px;
+    }
+    .articles-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button{
+      position: absolute;
+      left: 4rem;
+      top: 13rem;
+      display: flex;
+      place-items: center;
+    }
+    
+    .blogss-button-1{
+      position: absolute;
+      left: 35rem;
+      top: 13rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-2{
+      position: absolute;
+      left: 4rem;
+      top: 19rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-3{
+      position: absolute;
+      left: 4rem;
+      top: 66rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-1-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-4{
+      position: absolute;
+      left: 4rem;
+      top: 19rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-5{
+      position: absolute;
+      left: 4rem;
+      top: 66rem;
+      display: flex;
+      place-items: center;
     }
   
   } 
