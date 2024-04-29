@@ -861,14 +861,14 @@
     .blogss-button-2{
       position: absolute;
       left: 4rem;
-      top: 19rem;
+      top: 13rem;
       display: flex;
       place-items: center;
     }
     .blogss-button-3{
       position: absolute;
-      left: 4rem;
-      top: 66rem;
+      left: 35rem;
+      top: 13rem;
       display: flex;
       place-items: center;
     }
@@ -880,15 +880,15 @@
     }
     .blogss-button-4{
       position: absolute;
-      left: 4rem;
-      top: 19rem;
+      left: 3rem;
+      top: 13rem;
       display: flex;
       place-items: center;
     }
     .blogss-button-5{
       position: absolute;
-      left: 4rem;
-      top: 66rem;
+      left: 35rem;
+      top: 13rem;
       display: flex;
       place-items: center;
     }
@@ -936,6 +936,67 @@
       gap: 40px;
       margin-top: 30px;
     }
+    .articles-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button{
+      position: absolute;
+      left: 4rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
+    
+    .blogss-button-1{
+      position: absolute;
+      left: 43rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-2{
+      position: absolute;
+      left: 4rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-3{
+      position: absolute;
+      left: 43rem;
+      top: 17rem;
+      display: flex;
+      place-items: center;
+    }
+    .articles-no-1-post{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blogss-button-4{
+      position: absolute;
+      left: 4rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
+    .blogss-button-5{
+      position: absolute;
+      left: 43rem;
+      top: 16rem;
+      display: flex;
+      place-items: center;
+    }
   
   } 
   @media (min-width: 1400px){
@@ -975,6 +1036,68 @@
    .articles-no-1-post h2{
     line-height: 157.4%;
    }
+   .articles-post{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogss-button{
+    position: absolute;
+    left: 4rem;
+    top: 19rem;
+    display: flex;
+    place-items: center;
+  }
+  
+  .blogss-button-1{
+    position: absolute;
+    left: 49rem;
+    top: 19rem;
+    display: flex;
+    place-items: center;
+  }
+  .articles-no-post{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogss-button-2{
+    position: absolute;
+    left: 4rem;
+    top: 19rem;
+    display: flex;
+    place-items: center;
+  }
+  .blogss-button-3{
+    position: absolute;
+    left: 49rem;
+    top: 19rem;
+    display: flex;
+    place-items: center;
+  }
+  .articles-no-1-post{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogss-button-4{
+    position: absolute;
+    left: 4rem;
+    top: 19rem;
+    display: flex;
+    place-items: center;
+  }
+  .blogss-button-5{
+    position: absolute;
+    left: 49rem;
+    top: 19rem;
+    display: flex;
+    place-items: center;
+  }
+
   }
 
   @media (min-width:320px){
