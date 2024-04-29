@@ -1,0 +1,1683 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    box-sizing: border-box;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .logo {
+    margin-top: 12px;
+  }
+  
+  .nav-ul-l ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 20px;
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 32px;
+  }
+  .nav-ul-l li {
+    list-style: none;
+  }
+  .nav-ul-l a {
+    text-decoration: none;
+    color: #242331;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+  }
+  .nav-btn {
+    margin-top: 12px;
+  }
+  .about {
+    font-family: "Nunito", sans-serif;
+    background-color: #5236FF;
+    color: #FFFF;
+    padding: 25px 54px;
+    border-radius: 39px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .about-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .about-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .images-container{
+    display: flex;
+    margin-top: 39px;
+    gap: 40px;
+  }
+ .text-container{
+  display: flex;
+  gap: 191px;
+  margin-top: 80px;
+ }
+ .text-container h1{
+  font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+ }
+ .text-container h3{
+  font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 850px;
+ }
+ .content-2 h3{
+    margin-top: 30px;
+    line-height: 100%;
+ }
+ .content-1 h3{
+    line-height: 100%;
+ }
+ .new-numbers-container{
+  margin-top: 100px;
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+ }
+ 
+ .new-numbers-container h4{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+ }
+ .new-numbers-container h1{
+  font-size: 73px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+ }
+.mission-container{
+  display: flex;
+  gap: 40px;
+  margin-top: 191px;
+}
+.mission-text h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.mission-text h4{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  max-width: 850px;
+  color: #797979;
+}
+.mission-2{
+  margin-top: 20px;
+}
+.values-container{
+  margin-top: 200px;
+}
+.value-button{
+  display: flex;
+  justify-content: center;
+}
+.value-button button{
+  background-color: #efecff;
+  color: #5236ff;
+  padding: 15px 27px;
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.values-text{
+  display: flex;
+  justify-content: center;
+}
+.values-text h1{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  max-width: 700px;
+  text-align: center;
+  line-height: 100%;
+  margin-top: 30px;
+}
+.teamwork-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  margin-top: 50px;
+  gap: 50px;
+}
+.innovation{
+  display: flex;
+  gap: 30px;
+  background-color: #F9F9F9;
+  padding: 27px 39px;
+  border: none;
+  border-radius: 30px;
+}
+.Team-work{
+  display: flex;
+  gap: 30px;
+  background-color: #F9F9F9;
+  padding: 27px 39px;
+  border: none;
+  border-radius: 30px;
+
+}
+.Excellence{
+  display: flex;
+  gap: 30px;
+  margin-top: 51px;
+  background-color: #F9F9F9;
+  padding: 27px 39px;
+  border: none;
+  border-radius: 30px;
+
+}
+.Responsibility{
+  display: flex;
+  gap: 30px;
+  margin-top: 51px;
+  background-color: #F9F9F9;
+  padding: 27px 39px;
+  border: none;
+  border-radius: 30px;
+
+}
+.teamwork-container h1{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.teamwork-container h4{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #797979;
+  line-height: 100%;
+  max-width: 650px;
+  margin-top: 10px;
+}
+.line-10{
+  border: 1px solid#E3E3E3;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.join{
+  display: flex;
+  gap: 30px;
+}
+
+.join-saas button{
+  background-color: #efecff;
+  color: #5236ff;
+  padding: 15px 27px;
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.join-saas h3{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+
+}
+.join h1{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.join h4{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 13px;
+  font-family: "Nunito", sans-serif;
+}
+.join h2{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+  max-width: 950px;
+  line-height: 157.4%;
+  color: #797979;
+}
+.web-designer button{
+  background-color: #242331;
+  color: #F9F9F9;
+  padding: 25px 53px;
+  border: none;
+  border-radius: 39px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 30px;
+}
+.prodect-development button{
+  background-color: #D3D3D3;
+  color: #242331;
+  padding: 25px 53px;
+  border: none;
+  border-radius: 39px;
+  border: 2px solid #D3D3D3;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 30px;
+}
+.finance button{
+  background-color: #D3D3D3;
+  color: #242331;
+  padding: 25px 53px;
+  border-radius: 39px;
+  border: 1px solid #000000;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 30px;
+}
+
+.web-designer{
+  padding: 66px 62px;
+  border: 1px solid #CBCBCB;
+  border-radius: 30px;
+}
+.prodect-development{
+  padding: 66px 62px;
+  border: 1px solid #CBCBCB;
+  border-radius: 30px;
+  margin-top: 39px;
+}
+.finance{
+  padding: 66px 62px;
+  border: 1px solid #CBCBCB;
+  border-radius: 30px;
+  margin-top: 39px;
+}
+.postion-container{
+  padding: 66px 62px;
+  border-radius: 30px;
+  background-color: #5236ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 39px;
+}
+.postion-text h1{
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.postion-text h2{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.apply-button{
+  display: flex;
+  justify-content: center;
+}
+.postion-container button{
+  background-color: #FFFFFF;
+  color: #242331;
+  padding: 15px 27px;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 30px;
+  border: none;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  margin-top: 200px;
+}
+.coulmn-1 h4 {
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+
+.mail-logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.mail-logo h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+.phone-logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.phone-logo h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-2 {
+  display: flex;
+  gap: 40px;
+}
+.coulmn-2 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-2 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+.coulmn-3 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-3 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+
+.coulmn-4 {
+  background-color: #f9f9f9;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+.coulmn-4 button {
+  font-family: "Nunito", sans-serif;
+  background-color: #efecff;
+  color: #5236ff;
+  padding: 14px 27px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.coulmn-4 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  margin-top: 30px;
+}
+.coulmn-4 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  margin-top: 20px;
+}
+.last-button {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+}
+.last-button .apple {
+  font-family: "Nunito", sans-serif;
+  background-color: #242331;
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.last-button .vector {
+  font-family: "Nunito", sans-serif;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  padding: 14px 27px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+@media (min-width: 320px){
+  .navbar {
+  
+    display: flex;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 12px;
+  }
+
+  .nav-ul-l ul {
+    display: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+  .about-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .about-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+    margin-top: 20px;
+  }
+  .images-container{
+    display: none;
+  }
+  .text-container{
+    display: block;
+    margin-top: 80px;
+  
+   }
+   .text-container h1{
+      font-size: 30px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-bottom: 20px;
+   }
+   .text-container h3{
+    font-size: 18px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      color: #797979;
+      max-width: 750px;
+   }
+   .content-2 h3{
+      margin-top: 30px;
+      line-height: 100%;
+   }
+   .content-1 h3{
+      line-height: 100%;
+   }
+   .new-numbers-container{
+    display: none;
+   }
+   .mission-container{
+    display: block;
+    margin-top: 100px;
+  }
+  .mission-text h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .mission-text h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    max-width: 850px;
+    color: #797979;
+    margin-top: 20px;
+  }
+  .mission-2{
+    margin-top: 20px;
+  }
+  .mission-image{
+    margin-top: 40px;
+  }
+  .values-container{
+    margin-top: 100px;
+  }
+  .value-button{
+    display: flex;
+    justify-content: center;
+  }
+  .value-button button{
+    background-color: #efecff;
+    color: #5236ff;
+    padding: 15px 27px;
+    border: none;
+    border-radius: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .values-text{
+    display: flex;
+    justify-content: center;
+  }
+  .values-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    max-width: 700px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .teamwork-container{
+    display: block;
+    
+    margin-top: 50px;
+  }
+  .innovation-image{
+    display: none;
+  }
+  .Team-image{
+    display: none;
+  }
+  .Excellence-image{
+    display: none;
+  }
+  .Responsibility-image{
+    display: none;
+  }
+  .join{
+    display: block;
+    margin-top: 200px;
+  }
+ .join-saas h3{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    max-width: 390px;
+    line-height: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .join h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .copyright-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .copyright-text h2{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+  }
+  .copy-imgs{
+    display: flex;
+    gap: 25px;
+  }
+  
+}
+@media (min-width: 576px){
+  .navbar {
+    display: flex;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 12px;
+  }
+
+  .nav-ul-l ul {
+    display: none;
+  }
+
+  .nav-btn {
+    display: flex;
+  }
+  .about-container{
+    margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+  }
+  .about-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .about-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+    margin-top: 20px;
+  }
+  .images-container{
+    display: none;
+  }
+  .text-container{
+    display: block;
+    margin-top: 80px;
+   }
+   .text-container h1{
+      font-size: 35px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-bottom: 20px;
+   }
+   .text-container h3{
+     font-size: 18px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      color: #797979;
+      max-width: 750px;
+   }
+   .content-2 h3{
+      margin-top: 30px;
+      line-height: 100%;
+   }
+   .content-1 h3{
+      line-height: 100%;
+   }
+   .new-numbers-container{
+    display: none;
+   }
+   .mission-container{
+    display: block;
+    margin-top: 100px;
+  }
+  .mission-text h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .mission-text h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    max-width: 850px;
+    color: #797979;
+    margin-top: 20px;
+  }
+  .mission-2{
+    margin-top: 20px;
+  }
+  .mission-image{
+    margin-top: 40px;
+  }
+  .teamwork-container{
+    display: block;
+    gap: 30px;
+    /* margin-top: 50px; */
+  }
+  .innovation-image{
+    display: flex;
+  }
+  .Team-image{
+    display: flex;
+  }
+  .Excellence-image{
+    display: flex;
+  }
+  .Responsibility-image{
+    display: flex;
+  }
+  .Excellence{
+    display: flex;
+    gap: 30px;
+    margin-top: 31px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .Responsibility{
+    display: flex;
+    gap: 30px;
+    margin-top: 31px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .join{
+    display: block;
+    margin-top: 200px;
+  }
+ .join-saas h3{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    max-width: 500px;
+    line-height: 100%;
+    margin-top: 40px;
+  }
+  .join h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px){
+  .navbar {
+
+    display: flex;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 12px;
+  }
+
+  .nav-ul-l ul {
+    display: none;
+  }
+
+  .nav-btn {
+    display: flex;
+  }
+  .about-container{
+    margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+  }
+  .about-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .about-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+    margin-top: 20px;
+  }
+  .images-container{
+    display: block;
+  }
+  .text-container{
+    display: block;
+    margin-top: 80px;
+   }
+   .text-container h1{
+      font-size: 35px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-bottom: 20px;
+   }
+   .text-container h3{
+     font-size: 18px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      color: #797979;
+      max-width: 750px;
+   }
+   .content-2 h3{
+      margin-top: 30px;
+      line-height: 100%;
+   }
+   .content-1 h3{
+      line-height: 100%;
+   }
+   .new-numbers-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+   }
+   .mission-container{
+    display: flex;
+    margin-top: 100px;
+  }
+  .mission-text h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .mission-text h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    max-width: 850px;
+    color: #797979;
+    margin-top: 20px;
+  }
+  .mission-2{
+    margin-top: 20px;
+  }
+  .mission-image{
+    margin-top: 40px;
+  }
+  .teamwork-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin-top: 50px;
+    gap: 10px;
+  }
+  .innovation{
+    display: flex;
+    gap: 30px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  }
+  .Team-work{
+    display: flex;
+    gap: 30px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .Excellence{
+    display: flex;
+    gap: 30px;
+    margin-top: 51px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .Responsibility{
+    display: flex;
+    gap: 30px;
+    margin-top: 51px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .innovation-image{
+    display: none;
+  }
+  .Team-image{
+    display: none;
+  }
+  .Excellence-image{
+    display: none;
+  }
+  .Responsibility-image{
+    display: none;
+  }
+  .join{
+    display: block;
+    margin-top: 200px;
+  }
+ .join-saas h3{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    max-width: none;
+    line-height: 100%;
+    margin-top: 40px;
+  }
+  .join h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+  }
+  .coulmn-4{
+    display: none;
+  }
+
+}
+@media (min-width: 992px){
+  .navbar {
+
+    display: flex;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 12px;
+  }
+
+  .nav-ul-l ul {
+    display: flex;
+  }
+
+  .nav-btn {
+    display: flex;
+  }
+  .about-container{
+    margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+  }
+  .about-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .about-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+    margin-top: 20px;
+  }
+  .images-container{
+    display: flex;
+  }
+  .text-container{
+    display: flex;
+    margin-top: 80px;
+   }
+   .text-container h1{
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-bottom: 20px;
+   }
+   .text-container h3{
+     font-size: 18px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      color: #797979;
+      max-width: 750px;
+   }
+   .new-numbers-container{
+    display: flex;
+    gap: 20px;
+   }
+   .mission-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+  }
+  .mission-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .mission-text h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    max-width: 850px;
+    color: #797979;
+    margin-top: 20px;
+  }
+  .mission-2{
+    margin-top: 20px;
+  }
+  .mission-image{
+    margin-top: 40px;
+  }
+  .teamwork-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin-top: 50px;
+    gap: 10px;
+  }
+  .innovation{
+    display: flex;
+    gap: 30px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  }
+  .Team-work{
+    display: flex;
+    gap: 30px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .Excellence{
+    display: flex;
+    gap: 30px;
+    margin-top: 51px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .Responsibility{
+    display: flex;
+    gap: 30px;
+    margin-top: 51px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  
+  }
+  .innovation-image{
+    display: flex;
+  }
+  .Team-image{
+    display: flex;
+  }
+  .Excellence-image{
+    display: flex;
+  }
+  .Responsibility-image{
+    display: flex;
+  }
+  .join{
+    display: flex;
+    margin-top: 200px;
+  }
+ .join-saas h3{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    max-width: none;
+    line-height: 100%;
+    margin-top: 40px;
+  }
+  .join h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+  }
+  .coulmn-4{
+    display: grid;
+  }
+}
+@media (min-width: 1200px){
+  .navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .logo {
+    margin-top: 12px;
+  }
+  
+  .nav-ul-l ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 20px;
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 32px;
+  }
+  .nav-ul-l li {
+    list-style: none;
+  }
+  .nav-ul-l a {
+    text-decoration: none;
+    color: #242331;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+  }
+  .nav-btn {
+    margin-top: 12px;
+  }
+  .about-container{
+    margin-top: 120px;
+   
+    display: flex;
+    justify-content: center;
+  }
+  .about-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 73px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .about-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+  }
+  .images-container{
+    display: flex;
+    margin-top: 39px;
+  }
+  .text-container{
+    display: flex;
+    gap: 191px;
+
+    margin-top: 80px;
+   }
+   .text-container h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+   }
+   .text-container h3{
+    font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      color: #797979;
+      max-width: 950px;
+   }
+   .content-2 h3{
+      margin-top: 30px;
+      line-height: 100%;
+   }
+   .content-1 h3{
+      line-height: 100%;
+   }
+   .new-numbers-container{
+    margin-top: 100px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+   }
+   .mission-container{
+    display: flex;
+    gap: 40px;
+    margin-top: 210px;
+  }
+  .mission-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-top: 35px;
+  }
+  .mission-text h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 157.4%;
+    max-width: 590px;
+    color: #797979;
+    margin-top: 26px;
+  }
+  .mission-2{
+    margin-top: 20px;
+  }
+  .teamwork-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin-top: 50px;
+    gap: 50px;
+  }
+  .innovation{
+    display: flex;
+    gap: 40px;
+    background-color: #F9F9F9;
+    padding: 27px 39px;
+    border: none;
+    border-radius: 30px;
+  }
+  .Team-work{
+    display: flex;
+    gap: 30px;
+    background-color: #F9F9F9;
+    padding: 27px 39px;
+    border: none;
+    border-radius: 30px;
+  
+  }
+  .Excellence{
+    display: flex;
+    gap: 30px;
+    margin-top: 51px;
+    background-color: #F9F9F9;
+    padding: 27px 39px;
+    border: none;
+    border-radius: 30px;
+  
+  }
+  .Responsibility{
+    display: flex;
+    gap: 30px;
+    margin-top: 51px;
+    background-color: #F9F9F9;
+    padding: 27px 39px;
+    border: none;
+    border-radius: 30px;
+  
+  }
+  .teamwork-container h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .teamwork-container h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    line-height: 157.4%;
+    max-width: 650px;
+    margin-top: 10px;
+  }
+  .postion-container{
+    padding: 66px 62px;
+    border-radius: 30px;
+    background-color: #5236ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+  }
+  .postion-text h1{
+    color: #FFFFFF;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 200px;
+  }
+  .coulmn-1 h4 {
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .mail-logo {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .mail-logo h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+  }
+  .phone-logo {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .phone-logo h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+  }
+  .coulmn-2 {
+    display: flex;
+    gap: 40px;
+  }
+  .coulmn-2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+  }
+  .coulmn-2 h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+  }
+  .coulmn-3 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+  }
+  .coulmn-3 h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+  }
+  
+  .coulmn-4 {
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  }
+  .coulmn-4 button {
+    font-family: "Nunito", sans-serif;
+    background-color: #efecff;
+    color: #5236ff;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .coulmn-4 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    margin-top: 30px;
+  }
+  .coulmn-4 h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    margin-top: 20px;
+  }
+  .last-button {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .last-button .apple {
+    font-family: "Nunito", sans-serif;
+    background-color: #242331;
+    color: #ffffff;
+    padding: 14px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .last-button .vector {
+    font-family: "Nunito", sans-serif;
+    background-color: #d3d3d3;
+    color: #ffffff;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+}
+@media (min-width:320px){
+  .container{
+   max-width: 320px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:576px){
+  .container{
+   max-width: 576px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:768px){
+  .container{
+   max-width: 768px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:992px){
+  .container{
+   max-width: 992px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:1200px){
+  .container{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0;
+   width: 100%;
+   
+  }
+  .content-1 h3{
+    line-height: 157.4%;
+   }
+   .content-2 h3{
+    line-height: 157.4%;
+   }
+   .join-saas h3{
+    max-width: 525px;
+   }
+   .postion-text h2{
+    max-width: 550px;
+   }
+   .postion-container button{
+    padding: 25px 53px;
+    border-radius: 39px;
+   }
+   
+ }
+@media (min-width: 1400px){
+  .container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    
+   }
+}
+@media (min-width: 1400px){
+ .content-1 h3{
+  line-height: 157.4%;
+ }
+ .content-2 h3{
+  line-height: 157.4%;
+ }
+ .text-container{
+  display: flex;
+  gap: 150px;
+  margin-top: 80px;
+ }
+ .mission-container{
+  display: flex;
+  gap: 40px;
+  margin-top: 210px;
+}
+.mission-text h1{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  margin-top: 58px;
+}
+.mission-text h4{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 157.4%;
+  max-width: 590px;
+  color: #797979;
+  margin-top: 26px;
+}
+ .about-container{
+  margin-top: 171px;
+ }
+ .join-saas h3{
+  max-width: 385px;
+ }
+ .postion-container{
+  padding: 104px 116px;
+ }
+ .postion-container button{
+  padding: 25px 53px;
+  border-radius: 39px;
+ }
+ .innovation{
+  padding: 27px 39px;
+  gap: 40px;
+ }
+ .postion-text h1{
+  font-size: 30px;
+  font-weight: bold;
+ }
+ .postion-text h2{
+  font-size: 22px;
+  font-weight: 400;
+  max-width: 600px;
+ }
+ .join h2{
+  max-width: 720px;
+ }
+ .nav-ul-l ul{
+  padding: 24px 52px;
+  border-radius: 39px;
+ }
+ .navbar{
+  margin-top: 61px;
+ }
+ .coulmn-1 h4{
+  max-width: 300px;
+ }
+
+}

@@ -1,0 +1,1073 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    box-sizing: border-box;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 59px;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+  }
+  
+  .nav-ul-l ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 20px;
+    background: #F9F9F9;
+    padding: 24px 54px;
+    border-radius: 32px;
+  }
+  .nav-ul-l li {
+    list-style: none;
+  }
+  .nav-ul-l a {
+    text-decoration: none;
+    color: #242331;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+  }
+  .nav-btn {
+    display: flex;
+    /* align-items: end; */
+    margin-top: 12px;
+  }
+  .integration {
+    font-family: "Nunito", sans-serif;
+    background-color: #5236FF;
+    color: #FFFF;
+    padding: 15px 40px;
+    border-radius: 39px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+ .header-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .header-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .header-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+    line-height: 157.4%;
+    margin-top: 20px;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .social-container{
+    margin-top: 115px;
+    display: flex;
+    gap: 40px;
+  }
+  .fb{
+    display: flex;
+    gap: 26px;
+  }
+  .twitter{
+    display: flex;
+    gap: 26px;
+  }
+  .Youtube{
+    display: flex;
+    gap: 26px;
+  }
+  .Pinterest{
+    display: flex;
+    gap: 26px;
+  }
+  .Twitch{
+    display: flex;
+    gap: 26px;
+  }
+  .Snapchat{
+    display: flex;
+    gap: 26px;
+  }
+
+.facebook{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+}
+.pin{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+.x{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+}
+.t{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+.youtub{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+}
+.snap{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+.social-container h1{
+  color: #242331;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  
+}
+.social-container h3{
+  color: #797979;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;  
+}
+.social-container h2{
+  color: #797979;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 157.4%; 
+  margin-top: 27px;
+}
+.social-container h4{
+  color: #242331;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 31px;
+  text-decoration: underline;
+}
+.line{
+  border: 1px solid #F9F9F9;
+  margin-top: 115px;
+}
+.banner-container {
+  margin-top: 200px;
+  background-color: #5236ff;
+  padding-top: 40px;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  gap: 33px;
+
+}
+.banner-text {
+  padding-top: 100px;
+  margin-left: 61px;
+}
+.banner-image{
+  margin-right: 61px;
+}
+.banner-text h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  max-width: 450px;
+  line-height: 100%;
+}
+.banner-text h2 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  max-width: 550px;
+  line-height: 100%;
+  margin-top: 26px;
+}
+.emaiaddress {
+  margin-top: 32px;
+  display: flex;
+  gap: 20px;
+}
+.emaiaddress input {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 32px;
+  background-color: #8879eb;
+}
+.emaiaddress input,
+::placeholder {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.submit {
+  background-color: white;
+  color: #5236ff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  margin-top: 200px;
+}
+.coulmn-1 h4 {
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+
+.mail-logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.mail-logo h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+.phone-logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.phone-logo h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-2 {
+  display: flex;
+  gap: 40px;
+}
+.coulmn-2 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-2 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+.coulmn-3 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-3 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+
+.coulmn-4 {
+  background-color: #f9f9f9;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+.coulmn-4 button {
+  font-family: "Nunito", sans-serif;
+  background-color: #efecff;
+  color: #5236ff;
+  padding: 14px 27px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.coulmn-4 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  margin-top: 30px;
+}
+.coulmn-4 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  margin-top: 20px;
+}
+.last-button {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+}
+.last-button .apple {
+  font-family: "Nunito", sans-serif;
+  background-color: #242331;
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.last-button .vector {
+  font-family: "Nunito", sans-serif;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  padding: 14px 27px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.copyright-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.copyright-text h2{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #797979;
+}
+.copy-imgs{
+  display: flex;
+  gap: 25px;
+}
+  
+  @media (min-width:320px){
+    .container{
+     max-width: 320px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:576px){
+    .container{
+     max-width: 576px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:768px){
+    .container{
+     max-width: 768px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:992px){
+    .container{
+     max-width: 992px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:1200px){
+    .container{
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width: 320px){
+    .navbar {
+  
+      display: flex;
+    }
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      margin-top: 12px;
+    }
+  
+    .nav-ul-l ul {
+      display: none;
+    }
+  
+    .nav-btn {
+      display: none;
+    }
+  }
+  @media (min-width: 576px){
+
+    .navbar {
+  
+      display: flex;
+    }
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      margin-top: 12px;
+    }
+  
+    .nav-ul-l ul {
+      display: none;
+    }
+  
+    .nav-btn {
+      display: flex;
+    }
+  }
+  @media (min-width: 768px){
+    .navbar {
+  
+      display: flex;
+    }
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      margin-top: 12px;
+    }
+  
+    .nav-ul-l ul {
+      display: none;
+    }
+  
+    .nav-btn {
+      display: flex;
+    }
+  }
+  @media (min-width: 992px){
+    .navbar {
+
+      display: flex;
+    }
+    .navbar-container {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      margin-top: 12px;
+    }
+  
+    .nav-ul-l ul{
+      display: flex;
+      padding: 15px 40px;
+    }
+    .nav-btn{
+      display: flex;
+    }
+    .new-btn {
+      font-family: "Nunito", sans-serif;
+      background-color: #5236FF;
+      color: #FFFF;
+      padding: 15px 34px;
+      border-radius: 39px;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+  }
+  @media (min-width: 1200px){
+    .navbar {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar-container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    .logo {
+      margin-top: 12px;
+    }
+    
+    .nav-ul-l ul {
+      display: flex;
+      align-items: center;
+      gap: 45px;
+      background: #F9F9F9;
+      padding: 15px 40px;
+      border-radius: 32px;
+    }
+    .nav-btn {
+     display: flex;
+    }
+  }
+
+
+  @media (min-width: 320px){
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 100px;
+    }
+    .last-button{
+      display: block;
+    }
+    .vector{
+      margin-top: 10px;
+    }
+    .coulmn-2{
+      gap: 10px;
+    }
+    .copyright-container{
+      display: block;
+    }
+    .copyright-text h2{
+      margin-bottom: 50px;
+    }
+    
+  }
+  @media (min-width: 576px){
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 100px;
+    }
+    .last-button{
+      display: block;
+    }
+    .vector{
+      margin-top: 10px;
+    }
+    .coulmn-2{
+      gap: 10px;
+    }
+    .copyright-container{
+      display: block;
+    }
+    .copyright-text h2{
+      margin-bottom: 50px;
+    }
+    
+  }
+  @media (min-width: 768px){
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 100px;
+    }
+    .coulmn-4{
+      display: none;
+    }
+  }
+  @media (min-width: 992px){
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 100px;
+    }
+    .coulmn-4{
+      display: grid;
+    }
+    .last-button{
+      display: block;
+    }
+    .vector{
+      margin-top: 10px;
+    }
+    .copyright-container{
+      display: flex;
+    }
+  }
+  @media (min-width: 1200px){
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto;
+      gap: 10px;
+    }
+   .last-button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   }
+  .vector{
+    margin-top: 0px;
+   }
+   .copyright-container{
+    display: flex;
+  }
+  }
+  @media (min-width: 320px){
+    .header-container{
+      margin-top: 120px;
+      display: flex;
+      justify-content: center;
+    }
+    .header-text h1{
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+    }
+
+    .social-container{
+      margin-top: 75px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .banner-container {
+  
+      margin-top: 100px;
+      background-color: #5236ff;
+      padding-top: 40px;
+      border: none;
+      border-radius: 30px;
+      display: block;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-left: 20px;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-left: 20px;
+      margin-right: 20px;
+      line-height: 100%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      display: none;
+    }
+   
+    .banner-image{
+      margin-top: 40px;
+    }
+   
+  }
+  @media (min-width: 576px){
+    .header-container{
+      margin-top: 120px;
+      display: flex;
+      justify-content: center;
+    }
+    .header-text h1{
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+    }
+    .social-container{
+      margin-top: 75px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .banner-container {
+  
+      margin-top: 100px;
+      background-color: #5236ff;
+      padding-top: 40px;
+      border: none;
+      border-radius: 30px;
+      display: block;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-left: 20px;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-left: 20px;
+      margin-right: 20px;
+      line-height: 100%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      display: none;
+    }
+   
+    .banner-image{
+      margin-top: 40px;
+    }
+  }
+  @media (min-width: 768px){
+    .header-container{
+      margin-top: 120px;
+      display: flex;
+      justify-content: center;
+    }
+    .header-text h1{
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+    }
+    .social-container{
+      margin-top: 75px;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .fb-logo{
+      display: none;
+    }
+    .Pinterest-logo{
+      display: none;
+    }
+    .twitter-logo{
+      display: none;
+    }
+    .Twitch-logo{
+      display: none;
+    }
+    .Youtube-logo{
+      display: none;
+    }
+    .Snapchat-logo{
+      display: none;
+    }
+    .banner-container {
+   
+      margin-top: 100px;
+      background-color: #5236ff;
+      padding-top: 40px;
+      border: none;
+      border-radius: 30px;
+      display: flex;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-left: 20px;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-left: 20px;
+      margin-right: 20px;
+      line-height: 100%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      display: flex;
+      margin-bottom: 30px;
+    }
+  }
+  @media (min-width: 992px){
+    .header-container{
+      margin-top: 120px;
+      display: flex;
+      justify-content: center;
+    }
+    .header-text h1{
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+    }
+    .social-container{
+      margin-top: 75px;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .fb-logo{
+      display: flex;
+    }
+    .Pinterest-logo{
+      display: flex;
+    }
+    .twitter-logo{
+      display: flex;
+    }
+    .Twitch-logo{
+      display: flex;
+    }
+    .Youtube-logo{
+      display: flex;
+    }
+    .Snapchat-logo{
+      display: flex;
+    }
+    .banner-container {
+  
+      margin-top: 200px;
+      background-color: #5236ff;
+      padding-top: 40px;
+      border: none;
+      border-radius: 30px;
+      display: flex;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      margin-left: 30px;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-left: 30px;
+      line-height: 100%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      margin-top: 32px;
+      margin-left: 30px;
+      display: flex;
+      gap: 20px;
+    }
+    .emaiaddress input {
+      padding: 15px 20px;
+      border: none;
+      border-radius: 32px;
+      background-color: #8879eb;
+    }
+    .emaiaddress input,
+    ::placeholder {
+      color: white;
+    }
+    .submit {
+      background-color: white;
+      color: #5236ff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 32px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+    }
+  }
+  @media (min-width: 1200px){
+
+
+    .header-container{
+      margin-top: 171px;
+      display: flex;
+      justify-content: center;
+    }
+    .header-text h1{
+      display: flex;
+      justify-content: center;
+      font-size: 75px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+    }
+    .social-container{
+      margin-top: 115px;
+      display: flex;
+      gap: 40px;
+      flex-wrap: nowrap;
+    }
+    .fb-logo{
+      display: flex;
+    }
+    .Pinterest-logo{
+      display: flex;
+    }
+    .twitter-logo{
+      display: flex;
+    }
+    .Twitch-logo{
+      display: flex;
+    }
+    .Youtube-logo{
+      display: flex;
+    }
+    .Snapchat-logo{
+      display: flex;
+    }
+
+
+
+    .line-12{
+      border: 1px solid #E3E3E3;
+      margin-top: 196px;
+      margin-bottom: 154px;
+    }
+
+
+
+    .banner-container {
+      margin-top: 200px;
+      background-color: #5236ff;
+      padding-top: 40px;
+      border: none;
+      border-radius: 30px;
+      display: flex;
+      gap: 33px;
+  
+    }
+    .banner-text {
+      padding-top: 100px;
+      margin-left: 61px;
+    }
+    .banner-image{
+      margin-right: 61px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 450px;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      max-width: 550px;
+      line-height: 100%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      margin-top: 32px;
+      margin-left: 30px;
+      display: flex;
+      gap: 20px;
+    }
+    .emaiaddress input {
+      padding: 15px 20px;
+      border: none;
+      border-radius: 32px;
+      background-color: #8879eb;
+    }
+    .emaiaddress input,
+    ::placeholder {
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .submit {
+      background-color: white;
+      color: #5236ff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 32px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+    }
+  }
+  @media (min-width: 1400px){
+    .container{
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+  @media (min-width: 1400px){
+    .header-container{
+      margin-top: 171px;
+    }
+    .header-text h1{
+      font-size: 75px;
+      font-weight: 800;
+    }
+    .header-text h3{
+     line-height: 157.4%;
+     margin-top: 20px;
+    }
+    .social-container h2{
+      line-height: 157.4%;
+    }
+    .social-container h4{
+     color: #242331;
+    }
+  }
