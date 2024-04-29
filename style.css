@@ -4254,6 +4254,10 @@ display: flex;
   display: flex;
   place-items: center;
 }
+.banner-image img{
+  display: flex;
+    
+  }
 .banner-image{
   position: absolute;
   left: 40rem;
