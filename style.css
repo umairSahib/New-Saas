@@ -31,9 +31,7 @@ header{
   align-items: center;
   gap: 40px;
 }
-.logo {
-  margin-top: 12px;
-}
+
 
 .nav-ul ul {
   display: flex;
@@ -53,9 +51,7 @@ header{
   font-size: 18px;
   font-family: "Nunito", sans-serif;
 }
-.nav-btn {
-  margin-top: 12px;
-}
+
 .btn-1 {
   font-family: "Nunito", sans-serif;
   background-color: #ffffff;
@@ -2801,7 +2797,7 @@ display: flex;
       display: block; 
       position: absolute; 
       bottom: 6rem; 
-      left: 13rem;
+      left: 23rem;
       z-index: -1; 
       background: url('images/background.png') no-repeat right 50%;
       width: 100%;
@@ -3812,10 +3808,10 @@ display: flex;
     font-size: 18px;
     font-family: "Nunito", sans-serif;
   }
-  .nav-btn {
+  .btn-1 {
     font-family: "Nunito", sans-serif;
-    background-color: #5236FF;
-    color: #FFFF;
+    background-color: #FFFFFF;
+    color: #242331;
     padding: 25px 54px;
     border-radius: 39px;
     border: none;
@@ -3854,10 +3850,10 @@ display: flex;
       font-size: 18px;
       font-family: "Nunito", sans-serif;
     }
-    .fb-btn {
+    .btn-1 {
       font-family: "Nunito", sans-serif;
-      background-color: #5236FF;
-      color: #FFFF;
+      background-color: #FFFFFF;
+      color: #242331;
       padding: 25px 54px;
       border-radius: 39px;
       border: none;
@@ -4556,3 +4552,4 @@ line-height: 157.4%;
 }
 
 }
+
