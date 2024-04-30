@@ -50,7 +50,7 @@
   }
 
 .saas-img{
-    margin-top: 65px;
+    margin-top: 67px;
 }
 .saas{
     display: flex;
@@ -233,9 +233,9 @@
 }
 .hero-text h2{
     font-family: "Nunito", sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 400;
-    color: #797979;
+    color: #242331;
     max-width: 640px;
     background-color: #F9F9F9;
     border: none;
@@ -663,15 +663,6 @@
   line-height: 157.4%;
 }
 
-.saas-button{
-  display: flex;
-  gap: 10px;
-}
-.saas-button-1{
-  display: flex;
-  gap: 10px;
-}
-
 .saas-button button{
   background-color: #FFFFFF;
   color: black;
@@ -845,7 +836,7 @@
 .saas-button-1{
   position: absolute;
   left: 2rem;
-  top: 57rem;
+  top: 59rem;
   display: flex;
   place-items: center;
 }
@@ -1142,9 +1133,9 @@
 }
 .hero-text h2{
     font-family: "Nunito", sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 400;
-    color: #797979;
+    color: #242331;
     max-width: 640px;
     background-color: #F9F9F9;
     border: none;
@@ -1415,6 +1406,34 @@
     }
   }
   @media (min-width:1400px){
+    .hero-text h2{
+      font-family: "Nunito", sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+      color: #242331;
+      max-width: 720px;
+      background-color: #F9F9F9;
+      border: none;
+      border-radius: 20px;
+      padding: 107px;
+      line-height: 157.4%;
+  }
+  
+    .saas-button{
+      position: absolute;
+      left: 2rem;
+      top: 18rem;
+      display: flex;
+      place-items: center;
+    }
+    .saas-button-1{
+      position: absolute;
+      left: 47rem;
+      top: 18rem;
+      display: flex;
+      place-items: center;
+    }
+    
     .sas-text h1{
       font-size: 75px;
       font-family: "Nunito", sans-serif;
@@ -1428,7 +1447,7 @@
       font-weight: 400;
       color: #797979;
       margin-bottom: 67px;
-      max-width: 976px;
+      max-width: 960px;
       line-height: 157.4%;
   }
   .sa-h4 h3 {
@@ -2057,7 +2076,7 @@
       margin-top: 10px;
     }
     .coulmn-2{
-      gap: 10px;
+      gap: 71px;
       margin-top: 30px;
     }
     .copyright-container{
@@ -2079,7 +2098,10 @@
     margin-top: 100px;
     gap: 40px;
   }
- 
+  .coulmn-2{
+    gap: 21px;
+    margin-top: 0px;
+  }
   .coulmn-4{
     display: none;
   }
@@ -2091,6 +2113,10 @@
     grid-template-columns: repeat(3, 1fr);
     margin-top: 100px;
     gap: 10px;
+  }
+  .coulmn-2{
+    gap: 10px;
+    margin-top: 0px;
   }
   .coulmn-4{
     display: grid;
