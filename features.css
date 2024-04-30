@@ -1577,3 +1577,311 @@ line-height: 157.4%;
 }
 
 }
+
+@media (min-width: 320px){
+  .banner-image img{
+      display: none;
+     }
+     #image{
+      display: none;
+   
+     }
+  .banner-container {
+
+      margin-top: 100px;
+      background-color: #5236ff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      display: block;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      line-height: 157.4%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      display: none;
+    }
+    .emaiaddress input,
+    ::placeholder {
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+ 
+}
+@media (min-width: 576px){
+  .banner-container {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 100px;
+      background-color: #5236ff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      display: block;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      line-height: 157.4%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      display: flex;
+      margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px){
+  .banner-container {
+      margin-top: 100px;
+      background-color: #5236ff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      display: flex;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      line-height: 157.4%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      display: flex;
+      margin-bottom: 30px;
+      align-items: end;
+    }
+    .emaiaddress input,
+    ::placeholder {
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .submit{
+      background-color: white;
+      color: #5236ff;
+      padding:24px 34px;
+      border: none;
+      border-radius: 39px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+    }
+}
+@media (min-width: 992px){
+  .banner-container {
+
+      margin-top: 200px;
+      background-color: #5236ff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      display: flex;
+    }
+    .banner-text {
+      padding-top: 100px;
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      line-height: 100%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      line-height: 157.4%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      margin-top: 32px;
+      display: flex;
+      gap: 20px;
+    }
+    .emaiaddress input {
+      padding: 25px 39px;
+      border: none;
+      border-radius: 39px;
+      background-color: #8879eb;
+    }
+    .emaiaddress input,
+    ::placeholder {
+      color: white;
+    }
+    .submit {
+      background-color: white;
+      color: #5236ff;
+      padding: 25px 34px;
+      border: none;
+      border-radius: 39px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+    }
+}
+@media (min-width: 1200px){
+  .banner-container {
+      margin-top: 200px;
+      background-color: #5236ff;
+      padding: 50px 20px;
+      border: none;
+      border-radius: 30px;
+      display: flex;
+      gap: 33px;
+  
+    }
+    .banner-text {
+      padding-top: 125px;
+    }
+  
+    #image{
+      display: flex;
+    }
+    .banner-image img{
+    display: flex;
+      
+    }
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 500px;
+      line-height: 110%;
+    }
+    .banner-text h2 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      max-width: 600px;
+      line-height: 157.4%;
+      margin-top: 26px;
+    }
+    .emaiaddress {
+      margin-top: 32px;
+      display: flex;
+      gap: 10px;
+      align-items: end;
+    }
+    .emaiaddress input {
+      padding: 25px 24px;
+      border: none;
+      border-radius: 32px;
+      background-color: #8879eb;
+    }
+    .emaiaddress input,
+    ::placeholder {
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .submit {
+      background-color: white;
+      color: #5236ff;
+      padding: 25px 24px;
+      border: none;
+      border-radius: 39px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      white-space: pre;
+    }
+ 
+    .banner-container{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .banner-image{
+      position: absolute;
+      left: 29rem;
+      top: 21rem;
+      display: flex;
+      place-items: center;
+    }
+    
+}
+@media (min-width: 1400px){
+ 
+ 
+    .banner-text h1 {
+      color: #ffffff;
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 500px;
+      line-height: 110%;
+    }
+    
+    .emaiaddress input {
+      padding: 25px 39px;
+      border: none;
+      border-radius: 39px;
+      background-color: #8879eb;
+    }
+    .emaiaddress input,
+    ::placeholder {
+      color: white;
+    }
+    .submit {
+      background-color: white;
+      color: #5236ff;
+      padding: 25px 34px;
+      border: none;
+      border-radius: 39px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+    }
+    .banner-image{
+      position: absolute;
+      left: 37rem;
+      top: 21rem;
+      display: flex;
+      place-items: center;
+    }
+}
