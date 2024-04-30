@@ -144,6 +144,7 @@
     font-weight: 400;
     color: #797979;
     margin-bottom: 67px;
+    line-height: 157.4%;
   }
   .sa-h4 h3{
     font-family: "Nunito", sans-serif;
@@ -151,6 +152,7 @@
     font-weight: 400;
     color: #797979;
     margin-bottom: 27px;
+    line-height: 157.4%;
   }
  
   .sa-h3 h1{
@@ -172,6 +174,7 @@
     font-weight: 400;
     color: #797979;
     margin-top: 27px;
+    line-height: 157.4%;
 }
 .sa-7 h1{
     font-family: "Nunito", sans-serif;
@@ -185,6 +188,7 @@
     font-weight: 400;
     color: #797979;
     margin-top: 27px;
+    line-height: 157.4%;
     margin-bottom: 58px;
 }
 .sa-9{
@@ -232,11 +236,12 @@
     font-size: 22px;
     font-weight: 400;
     color: #797979;
-    max-width: 600px;
+    max-width: 640px;
     background-color: #F9F9F9;
     border: none;
     border-radius: 20px;
     padding: 117px;
+    line-height: 157.4%;
 }
 .favourite{
     margin-top: 70px;
@@ -254,6 +259,7 @@
     font-weight: 400;
     color: #797979;
     margin-top: 26px;
+    line-height: 157.4%;
 }
 .line{
     border: 1px solid #F9F9F9;
@@ -328,7 +334,7 @@
     color: #797979;
     font-family: "Nunito", sans-serif;
     margin-top: 20px;
-    line-height: 100%;
+    line-height: 157.4%;
   }
   .blog-container h1 {
     display: flex;
@@ -376,7 +382,7 @@
     color: #797979;
     font-family: "Nunito", sans-serif;
     margin-top: 20px;
-    line-height: 100%;
+    line-height: 157.4%;
   }
   .read {
     font-size: 18px;
@@ -609,6 +615,13 @@
 }
 @media (min-width: 320px){
   
+  .saas-button{
+    display: none;
+  }
+  .saas-button-1{
+    display: none;
+  }
+
   .saas{
     display: block;
     margin-top: 50px;
@@ -667,6 +680,7 @@
     font-weight: 400;
     color: #797979;
     margin-bottom: 67px;
+    line-height: 157.4%;
   }
   .sa-h4 h3{
     font-family: "Nunito", sans-serif;
@@ -674,6 +688,7 @@
     font-weight: 400;
     color: #797979;
     margin-bottom: 27px;
+    line-height: 157.4%;
   }
  
   .sa-h3 h1{
@@ -695,6 +710,7 @@
     font-weight: 400;
     color: #797979;
     margin-top: 27px;
+    line-height: 157.4%;
 }
 .sa-7 h1{
     font-family: "Nunito", sans-serif;
@@ -709,6 +725,7 @@
     color: #797979;
     margin-top: 27px;
     margin-bottom: 58px;
+    line-height: 157.4%;
 }
 .sa-9{
     display: flex;
@@ -768,7 +785,6 @@
     margin-top: 10px;
 }
 .blog-container {
-   
   margin-top: 120px;
 }
 
@@ -799,8 +815,40 @@
   color: #797979;
   font-family: "Nunito", sans-serif;
   margin-top: 20px;
-  line-height: 100%;
+  line-height: 157.4%;
 }
+
+.saas-button{
+  display: flex;
+  gap: 10px;
+}
+.saas-button-1{
+  display: flex;
+  gap: 10px;
+}
+
+.saas-button button{
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 48px;
+  border: none;
+  border-radius: 39px;
+  font-family: "Nunito", sans-serif;
+}
+.saas-button-1 button{
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 48px;
+  border: none;
+  border-radius: 39px;
+  font-family: "Nunito", sans-serif;
+}
+
+
 .banner-container {
   
   margin-top: 100px;
@@ -865,6 +913,12 @@
 
 }
 @media (min-width: 576px){
+  .saas-button{
+    display: flex;
+  }
+  .saas-button-1{
+    display: flex;
+  }
   .saas{
     display: block;
     margin-top: 50px;
@@ -950,9 +1004,38 @@
   font-weight: 800; 
   display: flex;
 }
+.blog-post{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.saas-button{
+  position: absolute;
+  left: 2rem;
+  top: 16rem;
+  display: flex;
+  place-items: center;
+}
+.saas-button-1{
+  position: absolute;
+  left: 2rem;
+  top: 57rem;
+  display: flex;
+  place-items: center;
+}
 }
 @media (min-width: 768px){
- 
+
+  .saas-button{
+    display: none;
+  }
+  .saas-button-1{
+    display: none;
+  }
+  .blog-2{
+    margin-top: 0px;
+  }
   .banner-container {
     margin-top: 100px;
     background-color: #5236ff;
@@ -1053,7 +1136,7 @@
     color: #797979;
     font-family: "Nunito", sans-serif;
     margin-top: 20px;
-    line-height: 100%;
+    line-height: 157.4%;
   }
 
 
@@ -1070,7 +1153,34 @@
 }
 @media (min-width: 992px){
 
- 
+  .saas-button{
+    display: flex;
+  }
+  .saas-button-1{
+    display: flex;
+  }
+
+  .blog-post{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .saas-button{
+    position: absolute;
+    left: 2rem;
+    top: 18rem;
+    display: flex;
+    place-items: center;
+  }
+  .saas-button-1{
+    position: absolute;
+    left: 2rem;
+    top: 58rem;
+    display: flex;
+    place-items: center;
+  }
+
   .saas{
     display: flex;
     gap: 50px;
@@ -1095,6 +1205,26 @@
 
 }
 @media (min-width: 1200px){
+  .blog-post{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .saas-button{
+    position: absolute;
+    left: 2rem;
+    top: 16rem;
+    display: flex;
+    place-items: center;
+  }
+  .saas-button-1{
+    position: absolute;
+    left: 41rem;
+    top: 16rem;
+    display: flex;
+    place-items: center;
+  }
    .about-saas{
     margin-top: 100px;
     margin-left: 150px;
@@ -1121,6 +1251,7 @@
     font-weight: 400;
     color: #797979;
     margin-bottom: 67px;
+    line-height: 157.4%;
   }
   .sa-h4 h3{
     font-family: "Nunito", sans-serif;
@@ -1128,6 +1259,7 @@
     font-weight: 400;
     color: #797979;
     margin-bottom: 27px;
+    line-height: 157.4%;
   }
  
   .sa-h3 h1{
@@ -1149,6 +1281,7 @@
     font-weight: 400;
     color: #797979;
     margin-top: 27px;
+    line-height: 157.4%;
 }
 .sa-7 h1{
     font-family: "Nunito", sans-serif;
@@ -1163,6 +1296,7 @@
     color: #797979;
     margin-top: 27px;
     margin-bottom: 58px;
+    line-height: 157.4%;
 }
 .sa-9{
     display: flex;
@@ -1188,6 +1322,7 @@
     font-weight: 400;
     color: #797979;
     margin-top: 27px;
+    line-height: 157.4%; 
 }
 
 .sa-12 li{
@@ -1209,11 +1344,12 @@
     font-size: 22px;
     font-weight: 400;
     color: #797979;
-    max-width: 600px;
+    max-width: 640px;
     background-color: #F9F9F9;
     border: none;
     border-radius: 20px;
     padding: 107px;
+    line-height: 157.4%;
 }
 .favourite{
     margin-top: 70px;
@@ -1231,6 +1367,7 @@
     font-weight: 400;
     color: #797979;
     margin-top: 26px;
+    line-height: 157.4%;
 }
 .line{
     border: 1px solid #F9F9F9;
@@ -1304,7 +1441,7 @@
     color: #797979;
     font-family: "Nunito", sans-serif;
     margin-top: 20px;
-    line-height: 100%;
+    line-height: 157.4%;
   }
   .blog-container h1 {
     display: flex;
@@ -1348,7 +1485,7 @@
     color: #797979;
     font-family: "Nunito", sans-serif;
     margin-top: 20px;
-    line-height: 100%;
+    line-height: 157.4%;
   }
   .read {
     font-size: 18px;
