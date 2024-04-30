@@ -412,6 +412,12 @@ body {
   display: flex;
   gap: 25px;
 }
+.line-12{
+  border: 1px solid #d3d3d3;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
 @media (min-width: 320px) {
  
   .feature-header-container {
