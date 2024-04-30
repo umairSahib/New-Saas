@@ -117,6 +117,7 @@
     margin-top: 20px;
     line-height: 157.4%;
   }
+  
   .blogss-button button{
     background-color: #FFFFFF;
     color: black;
@@ -895,6 +896,9 @@
   
   } 
   @media (min-width: 1200px){
+    .blogss-button, .blogss-button-1, .blogss-button-2, .blogss-button-3, .blogss-button-4, .blogss-button-5{
+      gap: 10px;
+    }
     .news-text h1{
       display: flex;
       justify-content: center;
