@@ -498,7 +498,7 @@
   color: #ffffff;
   padding: 14px 27px;
   border-radius: 32px;
-  border: none;
+  border: 1px solid #D3D3D3;
   font-size: 18px;
   font-weight: bold;
   display: flex;
@@ -1678,7 +1678,7 @@
      color: #ffffff;
      padding: 24px 54px;
      border-radius: 39px;
-     border: none;
+     border: 1px solid #D3D3D3;
      font-size: 18px;
      font-weight: bold;
      display: flex;
@@ -1814,6 +1814,7 @@ line-height: 157.4%;
 padding: 24px 40px;
 border-radius: 39px;
 white-space: pre;
+border: 1px solid #D3D3D3;
 }
 .last-button .apple{
 padding: 24px 40px;
@@ -1917,6 +1918,7 @@ line-height: 157.4%;
  padding: 25px 54px;
  border-radius: 39px;
  white-space: pre;
+ border: 1px solid #D3D3D3;
 }
 .last-button .apple{
  padding: 25px 54px;
