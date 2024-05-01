@@ -1042,7 +1042,9 @@ line-height: 157.4%;
   .banner-container {
 
       margin-top: 100px;
-      background-color: #5236ff;
+      background: url(images/background\ \(4\).png);
+      background-position: center;
+      background-size: cover;
       padding: 10px 20px;
       border: none;
       border-radius: 30px;
@@ -1082,7 +1084,9 @@ line-height: 157.4%;
       margin-left: 0px;
       margin-right: 0px;
       margin-top: 100px;
-      background-color: #5236ff;
+      background: url(images/background\ \(4\).png);
+  background-position: center;
+  background-size: cover;
       padding: 10px 20px;
       border: none;
       border-radius: 30px;
@@ -1114,7 +1118,9 @@ line-height: 157.4%;
 @media (min-width: 768px){
   .banner-container {
       margin-top: 100px;
-      background-color: #5236ff;
+      background: url(images/background\ \(4\).png);
+      background-position: center;
+      background-size: cover;
       padding: 10px 20px;
       border: none;
       border-radius: 30px;
@@ -1164,7 +1170,9 @@ line-height: 157.4%;
   .banner-container {
 
       margin-top: 200px;
-      background-color: #5236ff;
+      background: url(images/background\ \(4\).png);
+      background-position: center;
+      background-size: cover;
       padding: 10px 20px;
       border: none;
       border-radius: 30px;
@@ -1217,7 +1225,9 @@ line-height: 157.4%;
 @media (min-width: 1200px){
   .banner-container {
       margin-top: 200px;
-      background-color: #5236ff;
+      background: url(images/background\ \(4\).png);
+      background-position: center;
+      background-size: cover;
       padding: 50px 20px;
       border: none;
       border-radius: 30px;
