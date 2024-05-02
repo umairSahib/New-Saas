@@ -1783,7 +1783,7 @@ line-height: 157.4%;
       background: url(images/background\ \(4\).png);
       background-position: center;
       background-size: cover;
-      padding: 70px 30px;
+      padding: 50px 20px;
       border: none;
       border-radius: 30px;
       display: flex;
@@ -1857,14 +1857,13 @@ line-height: 157.4%;
     .banner-image{
       position: absolute;
       left: 29rem;
-      top: 22rem;
+      top: 21rem;
       display: flex;
       place-items: center;
     }
     
 }
 @media (min-width: 1400px){
- 
  
     .banner-text h1 {
       color: #ffffff;
@@ -1894,12 +1893,5 @@ line-height: 157.4%;
       font-size: 18px;
       font-weight: bold;
       font-family: "Nunito", sans-serif;
-    }
-    .banner-image{
-      position: absolute;
-      left: 37rem;
-      top: 22rem;
-      display: flex;
-      place-items: center;
     }
 }
