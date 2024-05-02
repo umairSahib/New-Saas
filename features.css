@@ -1894,4 +1894,23 @@ line-height: 157.4%;
       font-weight: bold;
       font-family: "Nunito", sans-serif;
     }
+    .banner-image{
+      position: absolute;
+      left: 38rem;
+      top: 21rem;
+      display: flex;
+      place-items: center;
+    }
+    .banner-container {
+      margin-top: 200px;
+      background: url(images/background\ \(4\).png);
+      background-position: center;
+      background-size: cover;
+      padding: 66px 30px;
+      border: none;
+      border-radius: 30px;
+      display: flex;
+      gap: 33px;
+  
+    }
 }
