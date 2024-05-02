@@ -15,9 +15,7 @@
     align-items: center;
     gap: 40px;
   }
-  .logo {
-    margin-top: 12px;
-  }
+
   
   .nav-ul-l ul {
     display: flex;
