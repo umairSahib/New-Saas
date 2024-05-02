@@ -1783,7 +1783,7 @@ line-height: 157.4%;
       background: url(images/background\ \(4\).png);
       background-position: center;
       background-size: cover;
-      padding: 50px 20px;
+      padding: 70px 30px;
       border: none;
       border-radius: 30px;
       display: flex;
@@ -1857,7 +1857,7 @@ line-height: 157.4%;
     .banner-image{
       position: absolute;
       left: 29rem;
-      top: 21rem;
+      top: 22rem;
       display: flex;
       place-items: center;
     }
@@ -1898,7 +1898,7 @@ line-height: 157.4%;
     .banner-image{
       position: absolute;
       left: 37rem;
-      top: 21rem;
+      top: 22rem;
       display: flex;
       place-items: center;
     }

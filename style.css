@@ -37,7 +37,6 @@ header{
   display: flex;
   align-items: center;
   gap: 45px;
-  margin-top: 20px;
   background: #8879eb;
   padding: 20px;
   border-radius: 32px;
@@ -54,7 +53,7 @@ header{
 
 .btn-1 {
   font-family: "Nunito", sans-serif;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   color: #242331;
   padding: 25px 54px;
   border-radius: 32px;
@@ -2844,7 +2843,7 @@ display: flex;
   
   .btn-1 {
     font-family: "Nunito", sans-serif;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #242331;
     padding: 25px 54px;
     border-radius: 39px;
@@ -2905,6 +2904,7 @@ display: flex;
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-top: 0px;
   }
   .content-container {
     margin-top: 150px;
