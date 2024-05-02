@@ -17,7 +17,7 @@ header{
     bottom: 6rem; 
     left: 20rem;
     z-index: -1; 
-    background: url('images/background.png') no-repeat right 50%;
+    /* background: url('images/background.png') no-repeat right 50%; */
     width: 100%;
 
   }
@@ -750,7 +750,7 @@ display: flex;
  
   .header-container {
     display: block;
-    padding-top: 20px;
+    padding-top: 100px;
    
   }
   .header-text h1 {
@@ -1297,7 +1297,7 @@ display: flex;
 
  .header-container {
     display: block;
-    padding-top: 20px;
+    padding-top: 100px;
    
   }
   .header-text h1 {
@@ -1335,9 +1335,9 @@ display: flex;
   }
   .video {
     font-family: "Nunito", sans-serif;
-    background-color: #242331;
+    background-color: #F4F4F4;
     color: #ffffff;
-    padding: 25px 51px;
+    padding: 12px 14px;
     border-radius: 39px;
     border: none;
     font-size: 18px;
@@ -1829,7 +1829,7 @@ display: flex;
  
   .header-container {
     display: flex;
-    padding-top: 20px;
+    padding-top: 100px;
  
   }
   .header-text h1 {
@@ -1867,9 +1867,9 @@ display: flex;
   }
   .video {
     font-family: "Nunito", sans-serif;
-    background-color: #242331;
+    background-color: #F4F4F4;
     color: #ffffff;
-    padding: 25px 51px;
+    padding: 12px 14px;
     border-radius: 39px;
     border: none;
     font-size: 18px;
@@ -1878,6 +1878,7 @@ display: flex;
     align-items: center;
     gap: 5px;
     white-space: pre;
+    margin-top: 10px;
   }
  
   .content-container {
@@ -2429,7 +2430,7 @@ display: flex;
 
  .header-container {
     display: flex;
-    padding-top: 20px;
+    padding-top: 100px;
    
   }
   .header-text h1 {
@@ -2457,7 +2458,7 @@ display: flex;
     font-family: "Nunito", sans-serif;
     background-color: #5236ff;
     color: #ffffff;
-    padding: 25px 51px;
+    padding: 15px 37px;
     border-radius: 39px;
     border: none;
     font-size: 18px;
@@ -2466,10 +2467,10 @@ display: flex;
   }
   .video {
     font-family: "Nunito", sans-serif;
-    background-color: #ffffff;
+    background-color: #F4F4F4;
     color: #5236ff;
     white-space: pre;
-    padding: 25px 51px;
+    padding: 15px 37px;
     border-radius: 39px; 
     border: none;
     font-size: 18px;
@@ -3729,7 +3730,7 @@ display: flex;
 
   .nav-ul ul {
     display: none;
-  }
+  }i 
 
   .nav-btn {
     display: flex;
