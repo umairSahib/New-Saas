@@ -381,7 +381,7 @@ header{
 }
 .customer-review {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 25px;
 }
 .customer-review h4 {
@@ -3503,6 +3503,10 @@ display: flex;
   border-radius: 39px;
   font-size: 18px;
   font-weight: bold;
+}
+.customer-review{
+  display: flex;
+  justify-content: space-between;
 }
 .customer-review h4 {
   font-family: "Nunito", sans-serif;
