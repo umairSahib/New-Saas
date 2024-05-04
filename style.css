@@ -753,7 +753,7 @@ display: flex;
    
   }
   .header-text h1 {
-    font-size: 25px;
+    font-size: 31px;
     font-weight: 800;
     font-family: "Nunito", sans-serif;
     max-width: 250px;
@@ -761,10 +761,11 @@ display: flex;
   }
   .header-text h3 {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
     color: #797979;
+    line-height: 157.4%;
     max-width: 250px;
   }
   .header-btn {
@@ -786,9 +787,9 @@ display: flex;
   }
   .video {
     font-family: "Nunito", sans-serif;
-    background-color: #242331;
-    color: #ffffff;
-    padding: 25px 51px;
+    background-color: #F4F4F4;
+    color: #242331;
+    padding: 12px 14px;
     border-radius: 39px;
     border: none;
     font-size: 18px;
@@ -797,6 +798,7 @@ display: flex;
     align-items: center;
     gap: 5px;
     white-space: pre;
+    margin-top: 20px;
   }
 
   .content-container {
@@ -1044,16 +1046,16 @@ display: flex;
   .price-card-1 h3 {
     font-family: "Nunito", sans-serif;
     font-size: 22px;
-
     font-weight: 400;
     max-width: 350px;
     color: #797979;
     margin-top: 26px;
+    line-height: 157.4%;
   }
   .price-card-1 h4 {
     font-family: "Nunito", sans-serif;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: bold;
     margin-top: 30px;
   }
   .price-source {
@@ -1098,6 +1100,7 @@ display: flex;
   }
   .dollar {
     display: flex;
+    justify-content: center;
     }
     .dollar h2 {
       font-family: "Nunito", sans-serif;
@@ -1133,6 +1136,7 @@ display: flex;
     display: flex;
     text-align: center;
     justify-content: center;
+    
   }
   .price-card-2 b {
     color: #242331;
@@ -1300,20 +1304,20 @@ display: flex;
    
   }
   .header-text h1 {
-    font-size: 25px;
+    font-size: 52px;
     font-weight: 800;
     font-family: "Nunito", sans-serif;
     max-width: none;
-
     line-height: 110%;
   }
   .header-text h3 {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
-    color: #242331;
+    color: #797979;
     max-width: 450px;
+    line-height: 157.4%;
   }
   .header-btn {
     display: flex;
@@ -2448,8 +2452,7 @@ display: flex;
     max-width: 450px;
   }
   .header-btn {
-    display: flex;
-    gap: 30px;
+    display: block;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -2457,7 +2460,7 @@ display: flex;
     font-family: "Nunito", sans-serif;
     background-color: #5236ff;
     color: #ffffff;
-    padding: 15px 37px;
+    padding: 25px 51px;
     border-radius: 39px;
     border: none;
     font-size: 18px;
@@ -2468,8 +2471,7 @@ display: flex;
     font-family: "Nunito", sans-serif;
     background-color: #F4F4F4;
     color: #242331;
-    white-space: pre;
-    padding: 15px 37px;
+    padding: 8px 15px;
     border-radius: 39px; 
     border: none;
     font-size: 18px;
@@ -2477,7 +2479,7 @@ display: flex;
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .content-container {
     margin-top: 150px;
@@ -2891,6 +2893,10 @@ display: flex;
     font-weight: bold;
     white-space: pre;
   }
+  #video{
+    margin-right: -22px;
+ 
+   }
   .video {
     font-family: "Nunito", sans-serif;
     background-color: #F4F4F4;
@@ -2903,7 +2909,7 @@ display: flex;
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 13px;
     margin-top: 0px;
   }
   .content-container {
@@ -3373,36 +3379,7 @@ display: flex;
   }
 }
 
-@media (min-width: 320px){
-  .container-cost{
-    max-width: 320px;
-   
-  }
-}
-@media (min-width: 576px){
-  .container-cost{
-    max-width: 576px;
-  }
-}
-@media (min-width: 768px){
-  .container-cost{
-    max-width: 768px;
-  
-  }
-}
-@media (min-width: 992px){
-  .container-cost{
-    max-width: 992px;
- 
-  }
-}
 
-
-@media (min-width: 1200px){
-  .container-cost{
-    max-width: 1200px;
-  }
-}
 @media (min-width: 1400px){
   .container{
     max-width: 1400px;
@@ -3422,6 +3399,27 @@ display: flex;
     width: 100%;
 
   }
+  .video {
+    font-family: "Nunito", sans-serif;
+    background-color: #F4F4F4;
+    color: #242331;
+    white-space: pre;
+    padding: 9px 31px;
+    border-radius: 39px; 
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: 0px;
+  }
+
+  #video{
+   margin-right: -22px;
+
+  }
+
   .header-text h1 {
     font-size: 73px;
     font-weight: 800;
@@ -3672,15 +3670,15 @@ display: flex;
 }
 .blogs-button{
   position: absolute;
-  left: 4rem;
-  top: 19rem;
+  left: 3rem;
+  top: 18rem;
   display: flex;
   place-items: center;
 }
 .blogs-2-button{
   position: absolute;
-  left: 49rem;
-  top: 19rem;
+  left: 48rem;
+  top: 18rem;
   display: flex;
   place-items: center;
 }
@@ -4231,6 +4229,13 @@ display: flex;
       font-size: 18px;
       font-weight: bold;
       font-family: "Nunito", sans-serif;
+    }
+    .banner-image{
+      position: absolute;
+      left: 38rem;
+      top: 22rem;
+      display: flex;
+      place-items: center;
     }
 }
 
