@@ -51,7 +51,7 @@ header{
   font-family: "Nunito", sans-serif;
 }
 
-.nav-btn a{
+.nav-bttn a{
   text-decoration: none;
   color: #242331;
 }
@@ -3725,7 +3725,7 @@ display: flex;
     display: none;
   }
 
-  .nav-btn {
+  .nav-bttn{
     display: none;
   }
 }
@@ -3741,7 +3741,7 @@ display: flex;
     display: none;
   }i 
 
-  .nav-btn {
+  .nav-bttn{
     display: flex;
   }
 }
@@ -3758,7 +3758,7 @@ display: flex;
     display: none;
   }
 
-  .nav-btn {
+  .nav-bttn{
     display: flex;
   }
 }
@@ -3773,7 +3773,7 @@ display: flex;
   .navbar-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     gap: 10px;
   }
 
@@ -3789,7 +3789,7 @@ display: flex;
     padding: 25px 40px;
     border-radius: 32px;
   }
-  .nav-btn {
+  .nav-bttn{
     display: flex;
   }
 }
@@ -3802,7 +3802,7 @@ display: flex;
   }
   .navbar-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 40px;
   }
   
@@ -3844,7 +3844,7 @@ display: flex;
     }
     .navbar-container {
       display: flex;
-      align-items: center;
+      align-items: baseline;
       gap: 40px;
     }
     
