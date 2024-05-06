@@ -39,6 +39,10 @@
     font-size: 18px;
     font-family: "Nunito", sans-serif;
   }
+  .nav-btn{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
   .new-btn {
     font-family: "Nunito", sans-serif;
     background-color: #5236FF;

@@ -40,10 +40,14 @@
     display: flex;
   
   }
+  .nav-btn a{
+    text-decoration: none;
+    color: #FFFF;
+  }
   .integration {
     font-family: "Nunito", sans-serif;
     background-color: #5236FF;
-    color: #FFFF;
+    
     padding: 25px 54px;
     border-radius: 39px;
     border: none;
