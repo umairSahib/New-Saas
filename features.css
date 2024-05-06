@@ -473,6 +473,19 @@ body {
   font-weight: bold;
   font-family: "Nunito", sans-serif;
 }
+footer a{
+  text-decoration: none;
+  color: #242331;
+}
+#apple a{
+  color: #FFFFFF;
+}
+#int a{
+color: #5236FF;
+}
+#download a{
+  color: #5236FF;
+}
 
 
 @media (min-width: 320px) {
