@@ -2799,7 +2799,6 @@ display: flex;
 }
 @media (min-width: 1200px) {
   header{
-    padding-top: 60px;
     position: relative;
     overflow-x: hidden;
   }
@@ -3396,7 +3395,7 @@ display: flex;
     content: ''; 
     display: block; 
     position: absolute; 
-    bottom: 6rem; 
+    bottom: 7rem; 
     left: 13rem;
     z-index: -1; 
     background: url('images/background.png') no-repeat right 50%;

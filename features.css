@@ -1174,6 +1174,7 @@ body {
   display: flex;
   text-align: center;
   line-height: 157.4%;
+  max-width: 375px;
 }
 .Integration-text h1{
   max-width: 550px;
