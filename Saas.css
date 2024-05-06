@@ -823,9 +823,12 @@
 
   .saas-button{
     display: flex;
+
+    gap: 10px;
   }
   .saas-button-1{
     display: flex;
+    gap: 10px;
   }
 
   .blog-post{
