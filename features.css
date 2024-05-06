@@ -1246,7 +1246,7 @@ body {
   .navbar-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     gap: 10px;
   }
 
@@ -1275,7 +1275,7 @@ body {
   }
   .navbar-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 40px;
   }
   
@@ -1317,7 +1317,7 @@ body {
     }
     .navbar-container {
       display: flex;
-      align-items: center;
+      align-items: baseline;
       gap: 40px;
     }
     
