@@ -532,6 +532,19 @@
   display: flex;
   gap: 25px;
 }
+footer a{
+  text-decoration: none;
+  color: #242331;
+}
+#apple a{
+  color: #FFFFFF;
+}
+#int a{
+color: #5236FF;
+}
+#download a{
+  color: #5236FF;
+}
 @media (min-width: 320px){
  
   .about-container{
@@ -1014,6 +1027,7 @@
       font-weight: 800;
       font-family: "Nunito", sans-serif;
       margin-bottom: 20px;
+      white-space: nowrap;
    }
    .text-container h3{
      font-size: 22px;
@@ -1024,7 +1038,8 @@
       line-height: 157.4%;
    }
    .new-numbers-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
    }
    .mission-container{
@@ -1167,6 +1182,7 @@
     font-size: 50px;
     font-weight: 800;
     font-family: "Nunito", sans-serif;
+    white-space: nowrap;
    }
    .text-container h3{
     font-size: 22px;
