@@ -150,6 +150,10 @@
 .values-container{
   margin-top: 200px;
 }
+.value-button a{
+ text-decoration: none;
+ color: #5236FF;
+}
 .value-button{
   display: flex;
   justify-content: center;
@@ -244,7 +248,10 @@
   display: flex;
   gap: 30px;
 }
-
+.join-saas a{
+  text-decoration: none;
+  color: #5236ff;
+}
 .join-saas button{
   background-color: #efecff;
   color: #5236ff;
@@ -281,6 +288,10 @@
   line-height: 157.4%;
   color: #797979;
 }
+.web-designer a{
+  text-decoration: none;
+  color: #F9F9F9;
+}
 .web-designer button{
   background-color: #242331;
   color: #F9F9F9;
@@ -291,6 +302,10 @@
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   margin-top: 30px;
+}
+.prodect-development a{
+  text-decoration: none;
+  color: #242331;
 }
 .prodect-development button{
   background-color: #D3D3D3;
@@ -303,6 +318,10 @@
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   margin-top: 30px;
+}
+.finance a{
+  text-decoration: none;
+  color: #242331;
 }
 .finance button{
   background-color: #D3D3D3;
