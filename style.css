@@ -116,6 +116,10 @@ header{
   display: flex;
   justify-content: center;
 }
+.feature-btn a{
+  text-decoration: none;
+  color: #5236ff;
+}
 .feature-btn button {
   font-family: "Nunito", sans-serif;
   background-color: #efecff;
@@ -248,6 +252,10 @@ header{
   display: flex;
   justify-content: center;
 }
+.work-btn a{
+  text-decoration: none;
+  color: #5236ff;
+}
 .work-btn button {
   font-family: "Nunito", sans-serif;
   background-color: #efecff;
@@ -276,6 +284,18 @@ header{
   margin-top: 49px;
   gap: 29px;
   justify-content: center;
+}
+.content-buttons .account a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.content-buttons .code a{
+  text-decoration: none;
+  color: #242331;
+}
+.content-buttons .track a{
+  text-decoration: none;
+  color: #242331;
 }
 .account {
   background-color: #5236ff;
@@ -338,6 +358,10 @@ header{
 .start-button {
   margin-top: 40px;
 }
+.start-button .get-started a {
+  text-decoration: none;
+  color: white;
+}
 .get-started {
   background-color: #242331;
   color: white;
@@ -356,6 +380,10 @@ header{
   display: flex;
   justify-content: center;
   padding-top: 200px;
+}
+.Testimonial button  a{
+  text-decoration: none;
+  color: #ffffff;
 }
 .Testimonial button {
   font-family: "Nunito", sans-serif;
@@ -465,6 +493,10 @@ header{
   font-size: 40px;
   font-weight: 800;
 }
+.save-button a{
+  text-decoration: none;
+  color: #797979;
+}
 .save-button button {
   font-family: "Nunito", sans-serif;
   background-color: #ffffff;
@@ -549,6 +581,10 @@ display: flex;
   font-size: 40px;
   font-weight: 800;
 }
+.Advanced-button a{
+  text-decoration: none;
+  color: #5236ff;
+}
 .Advanced-button button {
   font-family: "Nunito", sans-serif;
   background-color: #efecff;
@@ -558,6 +594,10 @@ display: flex;
   border: none;
   font-size: 18px;
   font-weight: bold;
+}
+.get-start a{
+  text-decoration: none;
+  color: #242331;
 }
 .line {
   margin-top: 30px;
@@ -598,6 +638,10 @@ display: flex;
   justify-content: center;
   margin-top: 35px;
 }
+.g0t-start a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .g0t-start button {
   font-family: "Nunito", sans-serif;
   background-color: #242331;
@@ -618,6 +662,10 @@ display: flex;
   align-items: center;
   gap: 10px;
 }
+.blogs-button a{
+  text-decoration: none;
+  color: #242331;
+}
 .blogs-button button{
   background-color: #FFFFFF;
   color: black;
@@ -633,6 +681,10 @@ display: flex;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.blogs-2-button a{
+  text-decoration: none;
+  color: #242331;
 }
 .blogs-2-button button{
   background-color: #FFFFFF;
@@ -673,6 +725,10 @@ display: flex;
 .blog-button {
   display: flex;
   justify-content: center;
+}
+.blog-button a{
+  text-decoration: none;
+  color: #5236ff;
 }
 .blog-button button {
   background-color: #efecff;
@@ -758,6 +814,10 @@ color: #5236FF;
 #download a{
   color: #5236FF;
 }
+.card-button a{
+  text-decoration: none;
+  color: #5236FF;
+}
 
 @media (min-width: 320px) {
   header{
@@ -791,6 +851,14 @@ color: #5236FF;
     gap: 0px;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .header-btn .start a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .header-btn .video a{
+    text-decoration: none;
+    color: #242331;
   }
   .start {
     font-family: "Nunito", sans-serif;
@@ -1043,6 +1111,7 @@ color: #5236FF;
   .card-button {
     margin-top: 100px;
   }
+  
   .price-card-1 {
     margin-right: 20px;
     margin-left: 20px;
