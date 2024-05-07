@@ -2791,7 +2791,10 @@ color: #5236FF;
     display: flex;
     justify-content: center;
     padding-top: 25px;
-    justify-content: space-between;
+   
+  }
+  .customer-review button{
+    display: flex;
   }
   .customer-review h4 {
     font-family: "Nunito", sans-serif;
@@ -3301,7 +3304,10 @@ color: #5236FF;
     display: flex;
     justify-content: center;
     padding-top: 25px;
-    justify-content: space-between;
+  
+  }
+  .customer-review button{
+    display: flex;
   }
   .customer-review h4 {
     font-family: "Nunito", sans-serif;
