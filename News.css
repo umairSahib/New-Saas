@@ -121,7 +121,31 @@
     margin-top: 20px;
     line-height: 157.4%;
   }
-  
+  .blogss-button{
+    display: flex;
+    gap: 10px;
+  }
+  .blogss-button-1{
+    display: flex;
+    gap: 10px;
+  }
+  .blogss-button-2{
+    display: flex;
+    gap: 10px;
+  }
+  .blogss-button-3{
+    display: flex;
+    gap: 10px;
+  }
+  .blogss-button-4{
+    display: flex;
+    gap: 10px;
+  }
+  .blogss-button-5{
+    display: flex;
+    gap: 10px;
+  }
+
   .blogss-button button{
     background-color: #FFFFFF;
     color: black;
@@ -1081,7 +1105,7 @@
   .blogss-button-3{
     position: absolute;
     left: 49rem;
-    top: 21rem;
+    top: 19rem;
     display: flex;
     place-items: center;
   }
@@ -1559,4 +1583,36 @@ line-height: 157.4%;
  white-space: pre;
 }
 
+}
+.articles-no-container a{
+  text-decoration: none;
+  color: #242331;
+}
+.articles-no-2 a{
+  text-decoration: none;
+  color: #242331;
+}
+.articles-no-container a{
+  text-decoration: none;
+  color: #242331;
+}
+.articles-no-1-container a{
+  text-decoration: none;
+  color: #242331;
+}
+.articles-no-1-2 a{
+  text-decoration: none;
+  color: #242331;
+}
+.articles-2 a{
+  text-decoration: none;
+  color: #242331;
+}
+.blogss-button a{
+  text-decoration: none;
+  color: #242331;
+}
+.nav-btn a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
