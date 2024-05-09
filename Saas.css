@@ -2125,16 +2125,17 @@ line-height: 157.4%;
 
 }
 
+
+
 .banner-container{
   margin-top: 100px;
   display: flex;
   align-items: center;
-  padding: 60px 60px;
-  border: none;
-  border-radius: 39px;
-  background: #5236FF;
+  background-image:url('images/background(4).png');
+  background-repeat: no-repeat;
+  background-size: cover;
   gap: 33px;
-
+  padding: 46px 61px;
 }
 
 .banner-text h1{
@@ -2208,14 +2209,15 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    padding: 46px 61px;
+    border-radius: 50px;
   }
   .banner-text h1{
       font-size: 27px;
@@ -2234,8 +2236,13 @@ line-height: 157.4%;
       color: #FFFFFF;
   }
   .banner-button{
-      display: none;
+      display: block;
+   
     
+  }
+  .banner-button button{
+    margin-top: 30px;
+   
   }
   .banner-image{
       display: none;
@@ -2248,14 +2255,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 46px 61px;
   }
   .banner-text h1{
       font-size: 43px;
@@ -2274,8 +2281,12 @@ line-height: 157.4%;
       color: #FFFFFF;
   }
   .banner-button{
-      display: none;
+      display: flex;
+      align-items: end;
     
+  }
+  .banner-button button{
+    white-space: pre;
   }
   .banner-image{
       display: none;
@@ -2288,14 +2299,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 46px 61px;
   }
   .banner-text h1{
       font-size: 50px;
@@ -2330,14 +2341,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 46px 61px;
+    border-radius: 50px;
   }
   .banner-text h1{
       font-size: 50px;
@@ -2372,15 +2383,15 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-   
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-      gap: 33px;
-  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 33px;
+    padding: 46px 61px;
+    border-radius: 50px;
   }
   
   .banner-text h1{
@@ -2459,15 +2470,15 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      margin-top: 100px;
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-      gap: 33px;
-  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 33px;
+    padding: 46px 61px;
+    border-radius: 50px;
   }
   
   .banner-text h1{

@@ -4383,7 +4383,7 @@ line-height: 157.4%;
     background-image:url('images/background(4).png');
     background-repeat: no-repeat;
     background-size: cover;
-    gap: 33px;
+    border-radius: 50px;
   }
   .banner-text h1{
       font-size: 27px;
@@ -4422,7 +4422,7 @@ line-height: 157.4%;
     background-image:url('images/background(4).png');
     background-repeat: no-repeat;
     background-size: cover;
-    gap: 33px;
+    border-radius: 50px;
     padding: 46px 61px;
   }
   .banner-text h1{
@@ -4463,7 +4463,7 @@ line-height: 157.4%;
     background-image:url('images/background(4).png');
     background-repeat: no-repeat;
     background-size: cover;
-    gap: 33px;
+    border-radius: 50px;
   
   }
   .banner-text h1{
@@ -4506,7 +4506,7 @@ line-height: 157.4%;
     background-image:url('images/background(4).png');
     background-repeat: no-repeat;
     background-size: cover;
-    gap: 33px;
+    border-radius: 50px;
   
   }
   .banner-text h1{
