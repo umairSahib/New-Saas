@@ -4297,10 +4297,9 @@ line-height: 157.4%;
   margin-top: 100px;
   display: flex;
   align-items: center;
-  padding: 60px 60px;
-  border: none;
-  border-radius: 39px;
-  background: #5236FF;
+  background-image:url('images/background(4).png');
+  background-repeat: no-repeat;
+  background-size: cover;
   gap: 33px;
 
 }
