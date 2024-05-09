@@ -4294,6 +4294,7 @@ line-height: 157.4%;
 }
 
 .banner-container{
+  padding: 46px 61px;
   margin-top: 100px;
   display: flex;
   align-items: center;
@@ -4375,14 +4376,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-  
+    padding: 46px 61px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 33px;
   }
   .banner-text h1{
       font-size: 27px;
@@ -4415,14 +4416,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 33px;
+    padding: 46px 61px;
   }
   .banner-text h1{
       font-size: 43px;
@@ -4455,13 +4456,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
+    padding: 46px 61px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 33px;
   
   }
   .banner-text h1{
@@ -4497,13 +4499,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-      
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
+    padding: 46px 61px; 
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-image:url('images/background(4).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 33px;
   
   }
   .banner-text h1{
@@ -4539,14 +4542,14 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
-   
-      display: flex;
-      align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
-      gap: 33px;
+    padding: 46px 61px;
+    margin-top: 100px;
+  display: flex;
+  align-items: center;
+  background-image:url('images/background(4).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 33px;
   
   }
   
@@ -4626,14 +4629,16 @@ line-height: 157.4%;
       padding: 0;
   }
   .banner-container{
+     
+      padding: 46px 61px;
       margin-top: 100px;
       display: flex;
       align-items: center;
-      padding: 46px 61px;
-      border: none;
-      border-radius: 51px;
-      background:  linear-gradient(#684FFF, #B871FE);
+      background-image:url('images/background(4).png');
+      background-repeat: no-repeat;
+      background-size: cover;
       gap: 33px;
+    
   
   }
   
