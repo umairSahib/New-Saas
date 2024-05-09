@@ -1603,3 +1603,419 @@ line-height: 157.4%;
 
 }
 
+
+
+
+.banner-container{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  padding: 60px 60px;
+  border: none;
+  border-radius: 39px;
+  background: #5236FF;
+  gap: 33px;
+
+}
+
+.banner-text h1{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  max-width: 480px;
+  color: #FFFFFF;
+}
+.banner-text h2{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  margin-top: 26px;
+  max-width: 540px;
+  line-height: 157.4%;
+}
+.banner-button{
+  display: flex;
+  gap: 10px;
+  margin-top: 32px;
+}
+.banner-button a{
+  text-decoration: none;
+  color: #5236FF;
+}
+
+.banner-button button{
+  background-color: white;
+  color: #5236ff;
+  padding: 25px 34px;
+  border: none;
+  border-radius: 39px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.banner-button input{
+  padding: 25px 37px;
+  border: none;
+  border-radius: 39px;
+  background-color: #8879eb;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.banner-button input::placeholder{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  color: white
+}
+
+.banner-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  position: absolute;
+  left: 29rem;
+  top: 20rem;
+  display: flex;
+  place-items: center;
+}
+@media (min-width: 320px){
+  .container{
+      max-width: 320px;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .banner-container{
+      
+      display: flex;
+      align-items: center;
+      padding: 46px 61px;
+      border: none;
+      border-radius: 51px;
+      background:  linear-gradient(#684FFF, #B871FE);
+  
+  }
+  .banner-text h1{
+      font-size: 27px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 480px;
+      color: #FFFFFF;
+  }
+  .banner-text h2{
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-top: 26px;
+      max-width: 540px;
+      line-height: 157.4%;
+      color: #FFFFFF;
+  }
+  .banner-button{
+      display: none;
+    
+  }
+  .banner-image{
+      display: none;
+  }
+}
+@media (min-width: 576px){
+  .container{
+      max-width: 576px;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .banner-container{
+      
+      display: flex;
+      align-items: center;
+      padding: 46px 61px;
+      border: none;
+      border-radius: 51px;
+      background:  linear-gradient(#684FFF, #B871FE);
+  
+  }
+  .banner-text h1{
+      font-size: 43px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 480px;
+      color: #FFFFFF;
+  }
+  .banner-text h2{
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-top: 26px;
+      max-width: 540px;
+      line-height: 157.4%;
+      color: #FFFFFF;
+  }
+  .banner-button{
+      display: none;
+    
+  }
+  .banner-image{
+      display: none;
+  }
+}
+@media (min-width: 768px){
+  .container{
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .banner-container{
+      
+      display: flex;
+      align-items: center;
+      padding: 46px 61px;
+      border: none;
+      border-radius: 51px;
+      background:  linear-gradient(#684FFF, #B871FE);
+  
+  }
+  .banner-text h1{
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 480px;
+      color: #FFFFFF;
+  }
+  .banner-text h2{
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-top: 26px;
+      max-width: 540px;
+      line-height: 157.4%;
+      color: #FFFFFF;
+  }
+  .banner-button{
+      display: flex;
+      gap: 30px;
+      margin-top: 32px;
+  }
+  .banner-image{
+      display: none;
+  }
+}
+
+@media (min-width: 992px){
+  .container{
+      max-width: 992px;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .banner-container{
+      
+      display: flex;
+      align-items: center;
+      padding: 46px 61px;
+      border: none;
+      border-radius: 51px;
+      background:  linear-gradient(#684FFF, #B871FE);
+  
+  }
+  .banner-text h1{
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 480px;
+      color: #FFFFFF;
+  }
+  .banner-text h2{
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-top: 26px;
+      max-width: 540px;
+      line-height: 157.4%;
+      color: #FFFFFF;
+  }
+  .banner-button{
+      display: flex;
+      gap: 30px;
+      margin-top: 32px;
+  }
+  .banner-image{
+      display: none;
+  }
+}
+
+@media (min-width: 1200px){
+  .container{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .banner-container{
+   
+      display: flex;
+      align-items: center;
+      padding: 46px 61px;
+      border: none;
+      border-radius: 51px;
+      background:  linear-gradient(#684FFF, #B871FE);
+      gap: 33px;
+  
+  }
+  
+  .banner-text h1{
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 480px;
+      color: #FFFFFF;
+  }
+  .banner-text h2{
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-top: 26px;
+      max-width: 540px;
+      line-height: 157.4%;
+      color: #FFFFFF;
+  }
+  .banner-button{
+      display: flex;
+      gap: 10px;
+      margin-top: 32px;
+  }
+  .banner-button button{
+      background-color: #FFFFFF;
+      color: #5236FF;
+      padding: 17px 23px;
+      border: none;
+      border-radius: 39px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      white-space: pre;
+  }
+  .banner-button input{
+      padding: 17px 23px;
+      background-color: #9384f0;
+      color: white;
+      border: none;
+      border-radius: 39px;
+    
+  }
+  .banner-button input::placeholder{
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: white
+  }
+  
+  .banner-container{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .image{
+      position: absolute;
+      left: 32rem;
+      top: 18rem;
+      display: flex;
+      place-items: center;
+    }
+    .banner-image{
+      margin-left: 65px;
+      margin-bottom: 45px;
+    }
+    .banner-image{
+      display: flex;
+  }
+
+}
+@media (min-width: 1400px){
+  .container{
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .banner-container{
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      padding: 46px 61px;
+      border: none;
+      border-radius: 51px;
+      background:  linear-gradient(#684FFF, #B871FE);
+      gap: 33px;
+  
+  }
+  
+  .banner-text h1{
+      font-size: 50px;
+      font-weight: 800;
+      font-family: "Nunito", sans-serif;
+      max-width: 480px;
+      color: #FFFFFF;
+  }
+  .banner-text h2{
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif;
+      margin-top: 26px;
+      max-width: 540px;
+      line-height: 157.4%;
+      color: #FFFFFF;
+  }
+  .banner-button{
+      display: flex;
+      gap: 28px;
+      margin-top: 32px;
+  }
+  .banner-button button{
+      background-color: #FFFFFF;
+      color: #5236FF;
+      padding: 25px 34px;
+      border: none;
+      border-radius: 39px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+  }
+  .banner-button input{
+      padding: 25px 37px;
+      background-color: #9384f0;
+      color: white;
+      border: none;
+      border-radius: 39px;
+    
+  }
+  .banner-button input::placeholder{
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: white
+  }
+  
+  .banner-container{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .image{
+      position: absolute;
+      left: 38rem;
+      top: 21rem;
+      display: flex;
+      place-items: center;
+    }
+    .banner-image{
+      margin-left: 65px;
+      margin-bottom: 45px;
+    }
+    .banner-image{
+      display: flex;
+  }
+
+}
