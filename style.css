@@ -4706,3 +4706,59 @@ line-height: 157.4%;
   }
 
 }
+
+.power-container{
+  display: flex;
+  background-image: url('images/background(2).png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.power-text {
+  background: #F1F1F1;
+  padding: 40px 80px;
+  border: none;
+  border-radius: 39px;
+}
+.power-text h1{
+  font-size: 50px;
+  font-weight: 800;
+  max-width: 815px;
+  font-family: "Nunito", sans-serif;
+}
+.power-text h2{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: #797979;
+  line-height: 157.4%;
+  max-width: 587px;
+  margin-top: 26px;
+}
+
+.power-image {
+  display: flex;
+  gap: 19px;
+  margin-top: 30px;
+}
+  .p-text h1{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif ;
+  }
+  .p-text h2{
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Nunito", sans-serif ;
+      max-width: 399px;
+  }
+
+  .power-images img{
+  
+   margin-top: 80px;
+   margin-bottom: 68px;
+  }
+ 
