@@ -2019,3 +2019,11 @@ line-height: 157.4%;
   }
 
 }
+.Integration-button a{
+  text-decoration: none;
+  color: #5236FF;
+}
+.Analytics-button a{
+  text-decoration: none;
+  color: #5236FF;
+}
